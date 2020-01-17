@@ -7,6 +7,7 @@ IMPORTANT - READ BEFORE USING
 - This was uploaded from my private repository at the request of another GitHub user. Since this works on my device, I don't intend to offer much support to this repository.
 - **Use at your own risk.**
 - This is only compatible with Android 10 builds.
+- This does not add Magisk Manager to the build. Unlike official Magisk installations, you will need to install Magisk Manager manually. It will function normally afterwards, however.
 - You CANNOT install a **factory** image patched in this way. If you try to, ***you will fail to boot.***
 - You MUST install this as either a background OTA update, or as an `adb sideload` OTA image installed from recovery mode.
 - ***NEVER PERFORM A FACTORY RESET WITH MAGISK INSTALLED LIKE THIS.***
