@@ -9,7 +9,7 @@ CURRENTDIR=$(pwd)
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
 # Define the name of the directory that Magisk-related patches are stored
-PATCH_DIR=magisk-patches
+PATCH_DIR=/
 
 # Change to the build directory and apply Magisk patches to the build tree
 cd ${BUILD_DIR}
