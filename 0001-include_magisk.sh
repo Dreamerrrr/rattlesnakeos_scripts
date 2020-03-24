@@ -13,7 +13,7 @@ PATCH_DIR=/
 
 # Change to the build directory and apply Magisk patches to the build tree
 cd ${BUILD_DIR}
-for patchfile in ${SCRIPT_DIR}/${PATCH_DIR}/*.patch
+for patchfile in ${SCRIPT_DIR}/*.patch
 do
 	patch -p1 --no-backup-if-mismatch < ${patchfile}
 done
